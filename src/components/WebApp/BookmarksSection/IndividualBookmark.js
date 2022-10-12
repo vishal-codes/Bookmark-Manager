@@ -38,14 +38,14 @@ const IndividualBookmark = ({ websiteName, websiteURL, id }) => {
     };
 
     const deleteBookmark = async (e) => {
-        let bookmarkId = e.target.getAttribute('data-id');
+        const bookmarkId = e.target.getAttribute('data-id');
         if (userId) {
             await deleteDoc(doc(db, userId, bookmarkId));
         }
     };
 
     const idForUpdateBookmark = (e) => {
-        let bookmarkId = e.target.getAttribute('data-id');
+        const bookmarkId = e.target.getAttribute('data-id');
         dispatch(updateBookmarkInfoAction(bookmarkId));
         toggleModalVisibility();
     };

@@ -19,14 +19,16 @@ const Toolbar = ({ handleSearchTerm, searchTerm, toggleTheme, theme }) => {
     const userPhoto = useSelector((state) => state.auth.userPhoto);
 
     const signOutGoogle = () => {
-        signOut(auth)
-            .then(() => {
-                dispatch(signOutAction());
-                alert('Successfully logged out, buh byee! See you later :)');
-            })
-            .catch((error) => {
-                alert(error);
-            });
+        const choice = window.confirm('Please click on OK to Sign Out');
+        if (choice) {
+            signOut(auth)
+                .then(() => {
+                    dispatch(signOutAction());
+                })
+                .catch((error) => {
+                    alert(error);
+                });
+        }
     };
 
     return (
