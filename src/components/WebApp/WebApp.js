@@ -27,7 +27,7 @@ const WebApp = () => {
     const [theme, setTheme] = useState('dark');
 
     const addBookmark = async (websiteName, websiteURL) => {
-        let id = new Date().getTime();
+        const id = new Date().getTime();
         if (userId) {
             await setDoc(doc(db, userId, `_${id}`), {
                 id: `_${id}`,
@@ -50,11 +50,15 @@ const WebApp = () => {
         if (localTheme) {
             setTheme(localTheme);
         }
-        if (userId) {
-            onSnapshot(collection(db, userId), (snapshot) => {
+        const eventBookmarks = () => {
+            const unSub = onSnapshot(collection(db, userId), (snapshot) => {
                 setBookmarks(snapshot.docs.map((doc) => doc.data()));
             });
-        }
+            return () => {
+                unSub();
+            };
+        };
+        userId && eventBookmarks();
     }, [userId]);
 
     const toggleTheme = () => {
