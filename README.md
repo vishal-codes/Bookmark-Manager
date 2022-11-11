@@ -29,6 +29,13 @@ There are two versions of this project. I have simplified the difference between
 
 <br>
 
+## Home Section
+
+<img src="RepoImages/Screenshot from 2022-11-11 23-49-22.png">
+
+<br>
+
+
 ## Future Scope
 
 The future scope of the project includes -
