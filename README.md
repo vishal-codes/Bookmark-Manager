@@ -2,26 +2,26 @@
 
 ## Description
 
-This is a Mini Project for Semester 4 (currently pursuing) of Year 2 of Computer Engineering.  <br>
-Bookmark manager(v2) is a __Progressive Web App__ which allows you to manage your bookmarks from any device regardless of the operating system or browser being used.  
+This is a Mini Project for Semester 4 (currently pursuing) of Year 2 of Computer Engineering. <br>
+Bookmark manager(v2) is a **Progressive Web App** which allows you to manage your bookmarks from any device regardless of the operating system or browser being used.  
 There are two versions of this project. I have simplified the difference between them with the help of the following table -
 
-| Bookmark Manager    |       v1       |                   v2                 |
-|---------------------|:--------------:|:------------------------------------:|
-| Toggle Theme        |       ✅       |                   ✅                |
-| Cloud Storage       |       ❌       |                   ✅                |
-| Sign In with Google |       ❌       |                   ✅                |
-| Drag and Rearrange  |       ❌       |                   ✅                |
-| Search Bookmark     |       ❌       |                   ✅                |
-| PWA                 |       ❌       |                   ✅                |
+| Bookmark Manager    |         v1          |                                                         v2                                                         |
+| ------------------- | :-----------------: | :----------------------------------------------------------------------------------------------------------------: |
+| Toggle Theme        |         ✅          |                                                         ✅                                                         |
+| Cloud Storage       |         ❌          |                                                         ✅                                                         |
+| Sign In with Google |         ❌          |                                                         ✅                                                         |
+| Drag and Rearrange  |         ❌          |                                                         ✅                                                         |
+| Search Bookmark     |         ❌          |                                                         ✅                                                         |
+| PWA                 |         ❌          |                                                         ✅                                                         |
 | TechStack           | HTML,<br>CSS,<br>Js | React.js,<br>Redux, <br>Firebase,<br>Styled Components, <br>[muuri-react](https://paol-imi.github.io/muuri-react/) |
 
-
 #### You can check the deployed version of the bookmark manager here -
-- [v1 (local storage)](https://evozone.github.io/Bookmark-Manager/)
-- [v2 (cloud storage)](https://bookmark-manager-2617.web.app/)
-<!-- If you want to contribute to the project then checkout [CONTRIBUTING.md](https://github.com/vishal-codes/react-widgets/blob/main/CONTRIBUTING.md) . -->
-<br>
+
+-   [v1 (local storage)](https://evozone.github.io/Bookmark-Manager/)
+-   [v2 (cloud storage)](https://bookmark-manager-2617.web.app/)
+    <!-- If you want to contribute to the project then checkout [CONTRIBUTING.md](https://github.com/vishal-codes/react-widgets/blob/main/CONTRIBUTING.md) . -->
+    <br>
 
 ## Project Flow
 
@@ -29,19 +29,19 @@ There are two versions of this project. I have simplified the difference between
 
 <br>
 
-## Home Section
+## Screenshots
 
-<img src="RepoImages/Screenshot from 2022-11-11 23-49-22.png">
+<img src="RepoImages/lp.png">
+<img src="RepoImages/app.png">
 
 <br>
-
 
 ## Future Scope
 
 The future scope of the project includes -
-- Adding more options to sign in e.g. Sign in with Facebook, Sign in with Twitter, etc.
-- An extension needs to be developed so that a user can add a bookmark more easily without leaving that web page thus removing the step of copying and pasting the website link.
 
+-   Adding more options to sign in e.g. Sign in with Facebook, Sign in with Twitter, etc.
+-   An extension needs to be developed so that a user can add a bookmark more easily without leaving that web page thus removing the step of copying and pasting the website link.
 
 <br>
 
